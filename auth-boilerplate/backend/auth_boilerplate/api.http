@@ -1,0 +1,92 @@
+GET http://127.0.0.1:8000/auth/users/me/ HTTP/1.1
+Authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUyNjkzNzE2LCJpYXQiOjE3NTI2OTM0MTYsImp0aSI6IjM0OTg1NzRhYmMwNTQ1NGVhZjQwMjA2ODQxMTdlYTJiIiwidXNlcl9pZCI6MX0.xSivIecxWbWZogROQ4CjUArnDFpXrJmHckF3sJeMpuo
+
+
+###
+POST http://127.0.0.1:8000/auth/token/login/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "email":"buri1@gmail.com",
+    "password": "linux$69420"
+}
+
+###
+POST http://127.0.0.1:8000/auth/jwt/create/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "email":"buri1@gmail.com",
+    "password": "linux$69420"
+}
+
+###
+POST http://127.0.0.1:8000/auth/jwt/create/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "email":"buri1@gmail.com",
+    "password": "linux$69420"
+}
+
+###
+POST http://127.0.0.1:8000/auth/jwt/create/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "email":"dum@gmail.com",
+    "password": "dum69420"
+}
+
+###
+POST http://127.0.0.1:8000/auth/users/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "buriburizaemon",
+    "email":"buri1@gmail.com",
+    "password": "linux$69420"
+}
+
+
+###
+POST http://127.0.0.1:8000/auth/jwt/refresh/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1Mjc3OTk3NiwiaWF0IjoxNzUyNjkzNTc2LCJqdGkiOiJmNDRmYzczOGQzMmY0YmMzYTYzZTQyMDJiNmE1MmQ2OCIsInVzZXJfaWQiOjF9.oQuQDSsdK4XYzND-pIryS8e-7das3HTet_daCM72e2w"
+}
+
+
+###
+GET http://127.0.0.1:8000/auth/users/me HTTP/1.1
+Authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUyNzUzNDU0LCJpYXQiOjE3NTI3NTMxNTQsImp0aSI6IjI0ZDk2Y2MwM2UyOTQ4ZDFhYTAzN2VhNmI0YTUyMjc4IiwidXNlcl9pZCI6MX0.G4VHVPXmbYd7R5l60ppavm9toFL4cvsjSxxqdtvhw_o
+
+#! this route will return all users for the admin but for other users only the user itself will be displayed
+###
+GET http://127.0.0.1:8000/auth/users/ HTTP/1.1
+Authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzUyNzUzNDU0LCJpYXQiOjE3NTI3NTMxNTQsImp0aSI6IjI0ZDk2Y2MwM2UyOTQ4ZDFhYTAzN2VhNmI0YTUyMjc4IiwidXNlcl9pZCI6MX0.G4VHVPXmbYd7R5l60ppavm9toFL4cvsjSxxqdtvhw_o
+
+
+# ---
+# New HTTP only login, logout and refresh routes --> test in browser for http only cookies
+
+###
+POST http://127.0.0.1:8000/accounts/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "email":"dum@gmail.com",
+    "password": "dum69420"
+}
+
+###
+POST http://127.0.1:8000/accounts/logout HTTP/1.1
+Content-Type: application/json
+
+{
+
+}
+
+###
+POST http://127.0.0.1:8000/accounts/users/activation/NA/ct6qli-778085cd7d938a5cb4f9fa49da7b034a/ HTTP/1.1
