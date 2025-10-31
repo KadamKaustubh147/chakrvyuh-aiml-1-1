@@ -1,5 +1,5 @@
 """
-WSGI config for auth_boilerplate project.
+WSGI config for evolvium_backend project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,11 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'auth_boilerplate.settings')
+if 'RENDER_EXTERNAL_HOSTNAME' in os.environ:
+    settings_module = 'evolvium_backend.deployment_settings'
+else:
+    settings_module = os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'evolvium_backend.settings')
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', settings_module)
 
 application = get_wsgi_application()
