@@ -1,3 +1,4 @@
+from django.http import JsonResponse
 
 # Create your views here.
 
@@ -59,3 +60,7 @@ class QuizSubmitView(APIView):
         quiz.save()
 
         return Response({"result": code}, status=status.HTTP_200_OK)
+
+
+def health(request):
+    return JsonResponse({"status": "ok"}, status=200)
