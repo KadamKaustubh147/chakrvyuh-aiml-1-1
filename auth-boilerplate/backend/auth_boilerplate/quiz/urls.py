@@ -7,3 +7,5 @@ urlpatterns = [
     path("question_submit", QuizSubmitView.as_view(), name="quiz_submit"),
     path("health", views.health, name="health"),
 ]
+
+# /quiz/questions
