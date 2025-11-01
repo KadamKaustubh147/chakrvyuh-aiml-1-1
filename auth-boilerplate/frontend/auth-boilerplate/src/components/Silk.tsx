@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unknown-property */
 import React, { forwardRef, useMemo, useRef, useLayoutEffect } from 'react';
-import { Canvas, useFrame, useThree, RootState } from '@react-three/fiber';
+import { Canvas, useFrame, useThree, type RootState } from '@react-three/fiber';
 import { Color, Mesh, ShaderMaterial } from 'three';
-import { IUniform } from 'three';
+import { type IUniform } from 'three';
 
 type NormalizedRGB = [number, number, number];
 
