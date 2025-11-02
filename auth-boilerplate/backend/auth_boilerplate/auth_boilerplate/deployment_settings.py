@@ -106,3 +106,4 @@ DATABASES = {
 }
 
 FRONTEND_URL = "https://chakrvyuh-aiml-1-1-1-frontend.onrender.com"
+APPEND_SLASH = True
