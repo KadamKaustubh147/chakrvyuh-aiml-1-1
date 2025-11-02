@@ -46,7 +46,7 @@ const CubeMystery = () => {
 
       {/* content */}
       <div className="relative z-10 flex flex-col items-center">
-        <h1 className="text-3xl font-bold mb-4">Cube Mystery</h1>
+        <h1 className="text-3xl font-bold mb-4">Club Mystery</h1>
         <p className="text-center mb-4 text-lg">{question}</p>
 
         <form
