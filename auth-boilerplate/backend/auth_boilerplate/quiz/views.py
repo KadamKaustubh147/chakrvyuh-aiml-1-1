@@ -23,13 +23,11 @@ class QuizGetView(APIView):
 
         return Response({"riddle": quiz.riddle}, status=status.HTTP_200_OK)
 
-
 class QuizSubmitView(APIView):
     """
     POST: Takes user_answer and returns:
     - 0 → Correct answer
-    - 1 → Worst answer
-    - 2 → Wrong answer
+    - 1 → Wrong answer
     """
     authentication_classes = [CustomJWTAuthentication]
     permission_classes = [permissions.IsAuthenticated]
@@ -46,15 +44,9 @@ class QuizSubmitView(APIView):
 
         user_answer_clean = user_answer.strip().lower()
         correct = quiz.correct_answer.strip().lower()
-        worst = quiz.worst_answer.strip().lower()
 
         # Compare answers
-        if user_answer_clean == correct:
-            code = 0
-        elif user_answer_clean == worst:
-            code = 1
-        else:
-            code = 2
+        code = 0 if user_answer_clean == correct else 1
 
         quiz.user_answer = user_answer
         quiz.save()

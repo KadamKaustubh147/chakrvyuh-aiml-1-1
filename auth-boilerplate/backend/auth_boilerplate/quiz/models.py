@@ -10,7 +10,6 @@ class Quiz(models.Model):
     riddle = models.CharField()
     user_answer = models.CharField()
     correct_answer =  models.CharField()
-    worst_answer = models.CharField()
 
     def __str__(self):
         return f"{self.user.username}"
