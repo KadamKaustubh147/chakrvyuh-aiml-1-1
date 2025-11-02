@@ -1,4 +1,4 @@
-import { Link, useParams, useNavigate } from "react-router-dom";
+import { Link, useParams  } from "react-router-dom";
 import { useForm, type SubmitHandler } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -27,7 +27,7 @@ type FormFields = z.infer<typeof schema>;
 
 const PasswordReset = () => {
   const { uid, token } = useParams();
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const {
     register,

@@ -4,7 +4,7 @@ import { Navigate, Outlet } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext-http-jwt";
 
 const PrivateRoute = () => {
-  const { user, loading } = useContext(AuthContext);
+  const { user, loading } = useContext(AuthContext)!;
 
   if (loading) {
     return <div>Loading...</div>;
