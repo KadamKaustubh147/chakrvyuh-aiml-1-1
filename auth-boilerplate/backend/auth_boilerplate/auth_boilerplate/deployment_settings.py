@@ -45,6 +45,6 @@ DATABASES = {
     )
 }
 
-FRONTEND_URL="https://evolvium-frontend.onrender.com"
+FRONTEND_URL="https://chakrvyuh-aiml-1-1-1-frontend.onrender.com"
 # https://evolvium-frontend.onrender.com/
 # https://evolvium.quest
