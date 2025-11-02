@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
-import { useContext } from "react";
-import { AuthContext } from "../context/AuthContext-http-jwt";
+// import { useContext } from "react";
+// import { AuthContext } from "../context/AuthContext-http-jwt";
 import api from "../AxiosInstance";
 import { useForm, type SubmitHandler } from "react-hook-form";
 import { z } from "zod";
@@ -35,7 +35,7 @@ type FormFields = z.infer<typeof schema>;
 
 const SignUp = () => {
   const navigate = useNavigate();
-  const { login } = useContext(AuthContext)!;
+  // const { login } = useContext(AuthContext)!;
 
   const {
     register,
