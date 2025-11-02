@@ -5,7 +5,7 @@ from django.http import JsonResponse
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status, permissions
-from rest_framework_simplejwt.authentication import JWTAuthentication
+from accounts.authentication import CustomJWTAuthentication
 from .models import Quiz
 
 
@@ -13,7 +13,7 @@ class QuizGetView(APIView):
     """
     GET: Returns a riddle for the authenticated user.
     """
-    authentication_classes = [JWTAuthentication]
+    authentication_classes = [CustomJWTAuthentication]
     permission_classes = [permissions.IsAuthenticated]
 
     def get(self, request):
@@ -31,7 +31,7 @@ class QuizSubmitView(APIView):
     - 1 → Worst answer
     - 2 → Wrong answer
     """
-    authentication_classes = [JWTAuthentication]
+    authentication_classes = [CustomJWTAuthentication]
     permission_classes = [permissions.IsAuthenticated]
 
     def post(self, request):
