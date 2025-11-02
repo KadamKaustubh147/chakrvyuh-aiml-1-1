@@ -114,12 +114,108 @@
 // export default Login;
 
 
-import { Link, useNavigate } from "react-router-dom";
+// import { Link, useNavigate } from "react-router-dom";
+// import { useContext, useState } from "react";
+// import { AuthContext } from "../context/AuthContext-http-jwt";
+// import type { FormEvent } from "react";
+// import Silk from "../components/Silk";
+// import logo from "./gdg-logo.png"; // 🔁 replace with your logo path
+
+// const Login = () => {
+//   const { login } = useContext(AuthContext)!;
+//   const [username, setUsername] = useState("");
+//   const [password, setPassword] = useState("");
+//   const navigate = useNavigate();
+
+//   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+//     e.preventDefault();
+//     const success = await login(username, password);
+//     if (success) navigate("/app");
+//     else console.log("FAIL");
+//   };
+
+//   return (
+//     <div className="relative flex items-center justify-center h-screen overflow-hidden bg-black text-white">
+//       {/* 🔴 Moving silk background */}
+//       <div className="absolute inset-0 z-0">
+//         <Silk speed={5} scale={1} color="#dc143c" noiseIntensity={1.5} rotation={0} />
+//       </div>
+
+//       {/* 🧱 Login Card */}
+//       <div className="relative z-10 w-full max-w-md px-8 py-10 rounded-2xl bg-gradient-to-b from-[#141414]/90 to-[#000]/90 border border-[#ff0033]/40 shadow-[0_0_40px_rgba(255,0,50,0.2)]">
+//         {/* 🪩 Logo + Title */}
+//         <div className="flex flex-col items-center mb-6">
+//           <img src={logo} alt="logo" className="w-16 h-16 mb-3" />
+//           <h1
+//             className="text-4xl font-bold text-yellow-400 tracking-wider"
+//             style={{ fontFamily: "'Bangers', sans-serif" }}
+//           >
+//             CHAKRAVYUH
+//           </h1>
+//           <p className="text-sm text-gray-300 tracking-widest mt-2 uppercase">
+//             GDG IIIT SRI CITY – AIML CHALLENGE
+//           </p>
+//         </div>
+
+//         {/* 🧾 Login Form */}
+//         <form className="space-y-5" onSubmit={handleSubmit}>
+//           <div>
+//             <label
+//               htmlFor="username"
+//               className="block mb-2 text-xs font-semibold text-yellow-400 uppercase tracking-wider"
+//             >
+//               Team ID
+//             </label>
+//             <input
+//               type="text"
+//               onChange={(e) => setUsername(e.target.value)}
+//               name="username"
+//               id="username"
+//               className="w-full px-3 py-2 rounded-md bg-[#1a1a1a] border border-gray-700 text-gray-100 placeholder-gray-500 focus:ring-2 focus:ring-[#ff0033] focus:border-transparent outline-none"
+//               placeholder="Enter your Team ID"
+//               required
+//             />
+//           </div>
+
+//           <div>
+//             <label
+//               htmlFor="password"
+//               className="block mb-2 text-xs font-semibold text-yellow-400 uppercase tracking-wider"
+//             >
+//               Password
+//             </label>
+//             <input
+//               onChange={(e) => setPassword(e.target.value)}
+//               type="password"
+//               name="password"
+//               id="password"
+//               placeholder="Enter your password"
+//               className="w-full px-3 py-2 rounded-md bg-[#1a1a1a] border border-gray-700 text-gray-100 placeholder-gray-500 focus:ring-2 focus:ring-[#ff0033] focus:border-transparent outline-none"
+//               required
+//             />
+//           </div>
+
+//           <button
+//             type="submit"
+//             className="w-full mt-6 py-2.5 rounded-md bg-[#ff0033] hover:bg-[#ff1f4b] transition-all duration-300 font-semibold uppercase tracking-wider shadow-[0_0_20px_rgba(255,0,50,0.3)]"
+//           >
+//             Enter the Multiverse
+//           </button>
+//         </form>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Login;
+
+
+import { useNavigate } from "react-router-dom";
 import { useContext, useState } from "react";
 import { AuthContext } from "../context/AuthContext-http-jwt";
 import type { FormEvent } from "react";
-import Silk from "../components/Silk";
 import logo from "./gdg-logo.png"; // 🔁 replace with your logo path
+import bgImage from "./bg.webp"; // 🔁 replace with your background image path
 
 const Login = () => {
   const { login } = useContext(AuthContext)!;
@@ -135,12 +231,12 @@ const Login = () => {
   };
 
   return (
-    <div className="relative flex items-center justify-center h-screen overflow-hidden bg-black text-white">
-      {/* 🔴 Moving silk background */}
-      <div className="absolute inset-0 z-0">
-        <Silk speed={5} scale={1} color="#dc143c" noiseIntensity={1.5} rotation={0} />
-      </div>
-
+    <div
+      className="relative flex items-center justify-center h-screen overflow-hidden bg-black text-white bg-cover bg-center"
+      style={{
+        backgroundImage: `url(${bgImage})`,
+      }}
+    >
       {/* 🧱 Login Card */}
       <div className="relative z-10 w-full max-w-md px-8 py-10 rounded-2xl bg-gradient-to-b from-[#141414]/90 to-[#000]/90 border border-[#ff0033]/40 shadow-[0_0_40px_rgba(255,0,50,0.2)]">
         {/* 🪩 Logo + Title */}
