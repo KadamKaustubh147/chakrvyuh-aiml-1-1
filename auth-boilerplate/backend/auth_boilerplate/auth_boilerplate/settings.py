@@ -28,7 +28,12 @@ SECRET_KEY = "django-insecure-s7u&6iz6pni$%ttfnx1p-_e^b@zc@amemq@5ph8gonl%^b9^d!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "chakrvyuh-aiml-1-1.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
+
 
 
 # Application definition
@@ -63,6 +68,7 @@ MIDDLEWARE = [
 
 # for best security always keep the number of allowed origins to be less
 CORS_ALLOW_CREDENTIALS = True
+# CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOWED_ORIGINS = [
     "https://chakrvyuh-aiml-1-1-1-frontend.onrender.com",
