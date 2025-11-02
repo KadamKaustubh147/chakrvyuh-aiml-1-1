@@ -11,7 +11,7 @@ const CubeMystery = () => {
     const fetchQuestion = async () => {
       try {
         const res = await api.get("/quiz/questions/");
-        setQuestion(res.data.question); // adjust based on your backend response
+        setQuestion(res.data.riddle); // adjust based on your backend response
       } catch (error) {
         console.error("Error fetching question:", error);
       }
@@ -22,12 +22,12 @@ const CubeMystery = () => {
   const submitAnswer = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const res = await api.post("/quiz/question_submit//", {
+      const res = await api.post("/quiz/question_submit/", {
         user_answer: answer,
       });
-      setFeedback(res.data.message || "Answer submitted!");
+      if (res.status === 200) setFeedback("✅ Submitted successfully!");
     } catch (error: any) {
-      setFeedback(error.response?.data?.message || "Submission failed!");
+      setFeedback(error.response?.data?.error || "Submission failed!");
     }
   };
 
