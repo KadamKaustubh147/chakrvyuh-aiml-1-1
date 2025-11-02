@@ -42,7 +42,7 @@ const CubeMystery = () => {
           placeholder="Enter your answer"
           value={answer}
           onChange={(e) => setAnswer(e.target.value)}
-          className="text-black rounded px-3 py-2 w-64"
+          className="text-white rounded px-3 py-2 w-64"
         />
         <button type="submit" className="bg-red-600 px-4 py-2 rounded">
           Submit
