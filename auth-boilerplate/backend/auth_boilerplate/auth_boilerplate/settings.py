@@ -29,7 +29,7 @@ SECRET_KEY = "django-insecure-s7u&6iz6pni$%ttfnx1p-_e^b@zc@amemq@5ph8gonl%^b9^d!
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "chakrvyuh-aiml-1-1.onrender.com",
+    "https://chakrvyuh-aiml-1-1-1-frontend.onrender.com",
     "localhost",
     "127.0.0.1",
 ]

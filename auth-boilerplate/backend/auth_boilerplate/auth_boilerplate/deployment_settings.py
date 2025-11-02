@@ -60,7 +60,7 @@ SECRET_KEY = config("SECRET_KEY")
 
 ALLOWED_HOSTS = [
     config("RENDER_EXTERNAL_HOSTNAME"),
-    "chakrvyuh-aiml-1-1.onrender.com",
+    "https://chakrvyuh-aiml-1-1-1-frontend.onrender.com",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
