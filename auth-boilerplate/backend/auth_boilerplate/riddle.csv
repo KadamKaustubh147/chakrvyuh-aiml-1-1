@@ -1,0 +1,132 @@
+Team_ID,Riddle,Lead_Name,Avenger,Riddle_string,Cipher_Method,Ciphered_String,Final_Answer
+T001,"He scripts with laughter, bugs fleeing his humor-laced commits.",Dharun SA,Deadpool,Tread only on the odd stones — the Avenger’s strength will guide your steps.,OddLetterShift,LENEVD VEE GOZK,DEFEND NEW YORK
+T002,"Frameworks bow to his midnight commits, apps healing faster than they break.",Shyam Modi,Wolverine,Tread only on the odd stones — the Avenger’s strength will guide your steps.,OddLetterShift,LAUL CHN KIORXSC,CALL THE BIFROST
+T003,"He bends truth and falsehood, crafting security in riddles.",B S Poorvaj,Loki,"First step small, next one tall; each word climbs higher than the last.",WordIndexShift,EFGFOE PGY BRUN,DEFEND NEW YORK
+T004,"Engines of code roar, his creations plated in logic and steel.",Abhishek Anand,Iron Man,Each word carries its own weight.,WordLengthShift,BCJKRURIN WKH XMQI PSST,STABILIZE THE TIME LOOP
+T005,"His patterns cling tight, revealing what tomorrow hides.",Shreyaan Loke,Spider-Man,"A dance of push and pull: odd steps forward, even steps back.",OddEvenShift,AVEVAJN KQV BEJG,REVERSE THE SNAP
+T006,"From the shadows, he architects the system’s spine, a strategist whose designs decide victories.",Aman Raj,Nick Fury,The guards at the gate bear the number’s weight; the crowd passes free.,FirstLastWordRule,XKVGOX MIRROR JOSKTYOUT,REPAIR MIRROR DIMENSION
+T007,"Pipelines smile as his code merges, playful yet powerful.",Dharun SA,Deadpool,The river’s secret runs beneath the even ripples.,EvenLetterShift,SNIKLJ PXOZOIOR OSEMA,SHIELD PROTOCOL OMEGA
+T008,"Noise trembles, waiting for him to decide its fate.",Krishna Gupta,Doctor Strange,How long is the leader’s name? That measure moves the world.,LetterCountShift,CGMZFGY DQMXY QZFDK,QUANTUM REALM ENTRY
+T009,"When chaos logs an error, his humor commits the fix before the test completes.",Dharun SA,Deadpool,Tread only on the odd stones — the Avenger’s strength will guide your steps.,OddLetterShift,ZEERQTM ZEILQTG,REWRITE REALITY
+T010,"He sets illusions like traps, making threats walk in spirals of nothing.",B S Poorvaj,Loki,"Count as you walk: zero, one, two… each footfall presses harder",AlternateStep,QVCQXZS YMJVX QAHGO,QUANTUM REALM ENTRY
+T011,"Mighty tasks fold, compressed by his careful touch.",Zulqarnain Ahmed,Ant-Man,Twins pull in opposite winds; the cut between them marks the trick.,SplitHalves,CDKBU SXNECDHYUI VQYBIQVU,STARK INDUSTRIES FAILSAFE
+T012,"Applications spring to life from his strikes, bugs vanish before the release.",Shyam Modi,Wolverine,Count the singing voices in the leader’s name; they set the tune.,VowelNudge,DYHQJHUV LQLWLDWLYH,AVENGERS INITIATIVE
+T013,"He bolts functions together, building machines that think faster than men.",Abhishek Anand,Iron Man,"Two heroes, one push—add their strengths to move the mountain.",LeadLen+AvengerLen,LYPYLMY NBY MHUJ,REVERSE THE SNAP
+T014,"He strings models together, each catching signals others miss.",Shreyaan Loke,Spider-Man,"Wind the clock forward, then read the mirror’s song.",ReverseWhole,UFSX JMY JXWJAJW,REVERSE THE SNAP
+T015,"With strength and grace, he defends the backend from collapse.",Aadi Patel,Black Panther,"Gaze into the ancient mirror, then step one pace ahead.",MirrorSwap,JWLASJ OSJJMJ XSOWNISMN,REPAIR MIRROR DIMENSION
+T016,"Ideas armor themselves in his designs, flying as prototypes before dawn.",Abhishek Anand,Iron Man,The guards at the gate bear the number’s weight; the crowd passes free.,FirstLastWordRule,HCLUNLYZ PUPAPHAPCL,AVENGERS INITIATIVE
+T017,"Silent guardian of data, his eyes track every server’s breath.",Aadi Patel,Black Panther,"A dance of push and pull: odd steps forward, even steps back.",OddEvenShift,EVUSXR BFAHAQAZ AAQUM,SHIELD PROTOCOL OMEGA
+T018,"The beast in his logic snarls, forcing errors to retreat.",Shyam Modi,Wolverine,"Steel, not song, from the Avenger’s name powers the lever.",ConsonantNudge,BFPFSIF KTWJAJW,WAKANDA FOREVER
+T019,"Amid the jungle of servers, he prowls silently, catching every failing request before users notice.",Aadi Patel,Black Panther,"Two heroes, one push—add their strengths to move the mountain.",LeadLen+AvengerLen,LPVIOPH MZVGH ZIOMT,QUANTUM REALM ENTRY
+T020,"He weaves patterns like webs, catching truth from tangled data streams.",Shreyaan Loke,Spider-Man,Twins pull in opposite winds; the cut between them marks the trick.,SplitHalves,XZWRMKB HWYSKMK,PROJECT PEGASUS
+T021,"Sparks of inspiration ignite, uniting the club under one banner.",Vanya Awasthi,Captain Marvel,Each word carries its own weight.,WordLengthShift,IDMVOMZA SXSDSKDSFO,AVENGERS INITIATIVE
+T022,Intruders whisper his name when systems deny them entry.,B S Poorvaj,Loki,Your banner number tolls the chime—add its digits to turn back time.,TeamSumShift,HIJIRH RIA CSVO,DEFEND NEW YORK
+T023,"He compresses complexity, folding vast rooms into pockets of logic.",Zulqarnain Ahmed,Ant-Man,"Count as you walk: zero, one, two… each footfall presses harder",AlternateStep,GVCUH YNL URXO EGCCU,GUARD THE MIND STONE
+T024,"His designs hold the system steady, unseen yet unshakable.",Aman Raj,Nick Fury,Your banner number tolls the chime—add its digits to turn back time.,TeamSumShift,VXUZKIZ YGIXKJ ZOSKROTK,PROTECT SACRED TIMELINE
+T025,"Voices unite under a guiding light, lifted into galaxies of purpose.",Vanya Awasthi,Captain Marvel,How long is the leader’s name? That measure moves the world.,LetterCountShift,BDAFQOF EMODQP FUYQXUZQ,PROTECT SACRED TIMELINE
+T026,"He shrinks problems until they slip unnoticed, efficiency hidden in tiny frames.",Zulqarnain Ahmed,Ant-Man,Twins pull in opposite winds; the cut between them marks the trick.,SplitHalves,QEKBN DRO CYDT IJEDU,GUARD THE MIND STONE
+T027,"He jests with systems, chaos answering in stability.",Dharun SA,Deadpool,Tread only on the odd stones — the Avenger’s strength will guide your steps.,OddLetterShift,IVMNOEZS QNQTQABIDE,AVENGERS INITIATIVE
+T028,"His code shapes living apps, frameworks obey his claws when errors dare appear.",Shyam Modi,Wolverine,Each word carries its own weight.,WordLengthShift,XKVGOX SOXXUX MRVNWBRXW,REPAIR MIRROR DIMENSION
+T029,"Leadership shines, powering missions with cosmic flame.",Vanya Awasthi,Captain Marvel,Each word carries its own weight.,WordLengthShift,DJYNSCZYTKP VIVWACQB,SYNCHRONIZE NANOSUIT
+T030,"He welds builds together, scars vanishing under his debugging claws.",Shyam Modi,Wolverine,Your banner number tolls the chime—add its digits to turn back time.,TeamSumShift,JXDUG WKH PLQG VWRQH,GUARD THE MIND STONE
+T031,"Every feature is a tactic, every blueprint a calculated strike.",Aman Raj,Nick Fury,Twins pull in opposite winds; the cut between them marks the trick.,SplitHalves,XVEGO XLI PAOOANWYP,TRACK THE TESSERACT
+T032,"His power lies in shadows of databases, where requests find order.",Aadi Patel,Black Panther,"Two heroes, one push—add their strengths to move the mountain.",LeadLen+AvengerLen,KMJEZXO KZBVNPN,PROJECT PEGASUS
+T033,"Small is his strength, scaling down giants into whispers of code.",Zulqarnain Ahmed,Ant-Man,"Two heroes, one push—add their strengths to move the mountain.",LeadLen+AvengerLen,VQZIBZMN DIDODVODQZ,AVENGERS INITIATIVE
+T034,A beacon of energy leads all to greater heights.,Vanya Awasthi,Captain Marvel,The guards at the gate bear the number’s weight; the crowd passes free.,FirstLastWordRule,XBHUABT REALM LUAYF,QUANTUM REALM ENTRY
+T035,"His circuits hum with invention, turning sparks into reality.",Abhishek Anand,Iron Man,"Steel, not song, from the Avenger’s name powers the lever.",ConsonantNudge,HIJIRH RIA CSVO,DEFEND NEW YORK
+T036,"He moves unseen, yet his architecture controls the board.",Aman Raj,Nick Fury,The guards at the gate bear the number’s weight; the crowd passes free.,FirstLastWordRule,JENWPNAB RWRCRJCREN,AVENGERS INITIATIVE
+T037,"Algorithms bend to his touch, painting futures on hidden canvases.",Shreyaan Loke,Spider-Man,Twins pull in opposite winds; the cut between them marks the trick.,SplitHalves,AGVKPZWVQHW FSFGKMAL,SYNCHRONIZE NANOSUIT
+T038,"He guides the technology silently, aligning pieces like a grandmaster.",Aman Raj,Nick Fury,Twins pull in opposite winds; the cut between them marks the trick.,SplitHalves,WCRGLVSRMDA JWJKOQEP,SYNCHRONIZE NANOSUIT
+T039,Glitches fear the punchline in his pull requests.,Dharun SA,Deadpool,Your banner number tolls the chime—add its digits to turn back time.,TeamSumShift,DQHQDEQ FTQ EZMB,REVERSE THE SNAP
+T040,"Queues march to his command, keeping systems in rhythm.",Aadi Patel,Black Panther,"Steel, not song, from the Avenger’s name powers the lever.",ConsonantNudge,DWUXLT NHN XO JPJVXCCX,UNLOCK EYE OF AGAMOTTO
+T041,"From yesterday’s numbers he trains tomorrow’s truth, models whispering futures only he can hear.",Krishna Gupta,Doctor Strange,Tread only on the odd stones — the Avenger’s strength will guide your steps.,OddLetterShift,GRNCX GHR GEFSRRNCG,TRACK THE TESSERACT
+T042,"Where others see weight, he finds space to shrink and slip through.",Zulqarnain Ahmed,Ant-Man,"Count as you walk: zero, one, two… each footfall presses harder",AlternateStep,PSQWIHZ ZILBPP GWBUCAGY,PROTECT SACRED TIMELINE
+T043,"He bends probability, choosing one outcome among millions of shadows.",Krishna Gupta,Doctor Strange,"Two heroes, one push—add their strengths to move the mountain.",LeadLen+AvengerLen,RSZQJ HMCTRSQHDR EZHKRZED,STARK INDUSTRIES FAILSAFE
+T044,"Blueprints leap into form, armored by his precision.",Abhishek Anand,Iron Man,How long is the leader’s name? That measure moves the world.,LetterCountShift,JNXNAQN SBERIRE,WAKANDA FOREVER
+T045,"His graphs foretell destiny, curves whispering in secret arcs.",Krishna Gupta,Doctor Strange,"A dance of push and pull: odd steps forward, even steps back.",OddEvenShift,FRNY GUR QNEXUBYQ,SEAL THE DARKHOLD
+T046,"Doors that never existed still lock at his command, intruders circle endlessly in his crafted maze.",B S Poorvaj,Loki,Twins pull in opposite winds; the cut between them marks the trick.,SplitHalves,TIJFME QSPSNBNK NLDFZ,SHIELD PROTOCOL OMEGA
+T047,"From silence in numbers, he crafts voices of prediction.",Shreyaan Loke,Spider-Man,"A dance of push and pull: odd steps forward, even steps back.",OddEvenShift,LRUC CYN SRWAFBK,CALL THE BIFROST
+T048,"Shadows obey his rules, letting only trusted ones pass.",B S Poorvaj,Loki,"Steel, not song, from the Avenger’s name powers the lever.",ConsonantNudge,RTQLGEV RGICUWU,PROJECT PEGASUS
+T049,"Patterns align under his gaze, transforming chaos into certainty.",Krishna Gupta,Doctor Strange,"Steel, not song, from the Avenger’s name powers the lever.",ConsonantNudge,JENWPNAB RWRCRJCREN,AVENGERS INITIATIVE
+T050,"A cosmic resolve burns bright, guiding the community’s orbit higher with every step.",Vanya Awasthi,Captain Marvel,"Gaze into the ancient mirror, then step one pace ahead.",MirrorSwap,AIIWOZPW HTW OGPHSFWJIW,ASSEMBLE THE MULTIVERSE
+T051,"My models learn not perfection, but forgiveness.
+They find truth beneath noise, not fame in accuracy.",Shreyaan Loke,Spider-Man,"Steel, not song, from the Avenger’s name powers the lever.",ConsonantNudge,YNOKRJ VXUZUIUR USKMG,SHIELD PROTOCOL OMEGA
+T052,"I read the traces of yesterday and chart tomorrow’s probabilities.
+In the quiet of data, I hear the future breathe.",Krishna Gupta,Doctor Strange,"Gaze into the ancient mirror, then step one pace ahead.",MirrorSwap,HJAYQ HTW HWIIWJAYH,TRACK THE TESSERACT
+T053,"Metrics are his compass; precision is his creed. Twice he measures, once he unleashes intelligence.",Abhishek Anand,Iron Man,"Two heroes, one push—add their strengths to move the mountain.",LeadLen+AvengerLen,WIHNUCH WBUIM GUACW,CONTAIN CHAOS MAGIC
+T054,"I hide honeytokens in places where curiosity wanders.
+Each touch reveals the unseen intruder.",B S Poorvaj,Loki,The river’s secret runs beneath the even ripples.,EvenLetterShift,RFVFRTE TIE SOAQ,REVERSE THE SNAP
+T055,"Across unstable connections, I teach code to speak in harmony.
+Clients and servers talk like poets under packet rain.",Shyam Modi,Wolverine,Twins pull in opposite winds; the cut between them marks the trick.,SplitHalves,XDSHMWTSNEZ IVIJNPDO,SYNCHRONIZE NANOSUIT
+T056,Prototypes are my tempests; I forge storms into smooth releases. What begins as chaos ends as creation.,Dharun SA,Deadpool,Your banner number tolls the chime—add its digits to turn back time.,TeamSumShift,DSTPWO ACZEZNZW ZXPRL,SHIELD PROTOCOL OMEGA
+T057,"I divide giants into nimble warriors—each with a single task.
+Together, they lift the empire without breaking sweat.",Zulqarnain Ahmed,Ant-Man,Twins pull in opposite winds; the cut between them marks the trick.,SplitHalves,MKVV DRO RYVHEIJ,CALL THE BIFROST
+T058,"When the servers forget their rhythm, I breathe automation into their lungs.
+I’m the silent pulse that keeps clouds from falling asleep.",Aadi Patel,Black Panther,Tread only on the odd stones — the Avenger’s strength will guide your steps.,OddLetterShift,BRATQCF EAORQD FIYEXIZE,PROTECT SACRED TIMELINE
+T059,"Voices unite under a guiding light, lifted into galaxies of purpose.",Vanya Awasthi,Captain Marvel,Tread only on the odd stones — the Avenger’s strength will guide your steps.,OddLetterShift,EECAVR ZIERBR QIZEASVOA,REPAIR MIRROR DIMENSION
+T060,"From the shadows, he architects the system’s spine, a strategist whose designs decide victories.",Aman Raj,Nick Fury,Twins pull in opposite winds; the cut between them marks the trick.,SplitHalves,WXEVO MRHYWXNEAO BWEHOWBA,STARK INDUSTRIES FAILSAFE
+T061,"Edge cases are my mentors; they teach humility to my nets.
+I reward balance, not vanity metrics.",Shreyaan Loke,Spider-Man,Twins pull in opposite winds; the cut between them marks the trick.,SplitHalves,XZWBMKB AIKJWV LAEWDAFW,PROTECT SACRED TIMELINE
+T062,"Chance is my compass; statistics my sea.
+Through waves of uncertainty, I navigate with numbers as stars.",Krishna Gupta,Doctor Strange,"A dance of push and pull: odd steps forward, even steps back.",OddEvenShift,NFFRZOYR GUR ZHYGVIREFR,ASSEMBLE THE MULTIVERSE
+T063,"Features are his tools, not ornaments; every function forged to serve logic, not vanity.",Abhishek Anand,Iron Man,"Steel, not song, from the Avenger’s name powers the lever.",ConsonantNudge,GSRXEMR GLESW QEKMG,CONTAIN CHAOS MAGIC
+T064,"My audits read like mystery novels—every log a breadcrumb.
+No shadow escapes the lantern I carry.",B S Poorvaj,Loki,Tread only on the odd stones — the Avenger’s strength will guide your steps.,OddLetterShift,VETAMR QIVRSR HIQERSMOR,REPAIR MIRROR DIMENSION
+T065,"When an app freezes in fear, my code revives it with a rollback spell.
+Every crash tells me where resilience hides.",Shyam Modi,Wolverine,How long is the leader’s name? That measure moves the world.,LetterCountShift,ANYJRA VRAAXA MRVNWBRXW,REPAIR MIRROR DIMENSION
+T066,"Crash logs are confessions; I read them like old prophecies.
+Each bug leaves a clue—each fix, a legend.",Dharun SA,Deadpool,The river’s secret runs beneath the even ripples.,EvenLetterShift,QAATTAM RKARM ETTXY,QUANTUM REALM ENTRY
+T067,"Every microservice I forge knows one truth.
+Simplicity is not weakness—it’s precision.",Zulqarnain Ahmed,Ant-Man,How long is the leader’s name? That measure moves the world.,LetterCountShift,RPAA IWT QXUGDHI,CALL THE BIFROST
+T068,"I guard secrets inside shifting vaults, where rolling updates glide like whispers.
+Every deploy is a dance, not a gamble.",Aadi Patel,Black Panther,Each word carries its own weight.,WordLengthShift,WYVQLJA WLNHZBZ,PROJECT PEGASUS
+T069,"Amid the jungle of servers, a silent guardian catches every failing request before users notice.",Vanya Awasthi,Captain Marvel,"Wind the clock forward, then read the mirror’s song.",ReverseWhole,RXVPB HDPWR CXPICDR,CONTAIN CHAOS MAGIC
+T070,"His designs hold the system steady, unseen yet unshakable.",Aman Raj,Nick Fury,Each word carries its own weight.,WordLengthShift,IAAMUJTM WKH WEVDSFOBCO,ASSEMBLE THE MULTIVERSE
+T071,"I fold raw data into signals until the machine hums in certainty.
+Prediction is my art, precision my creed.",Shreyaan Loke,Spider-Man,"A dance of push and pull: odd steps forward, even steps back.",OddEvenShift,BKJIT ZWUDJCIRVB WJZUJJWN,STARK INDUSTRIES FAILSAFE
+T072,"Messy tables are my raw clay; I cleanse until clarity sings.
+A dataset purified becomes a melody of truth.",Krishna Gupta,Doctor Strange,"Steel, not song, from the Avenger’s name powers the lever.",ConsonantNudge,ANYJRA VRAAXA MRVNWBRXW,REPAIR MIRROR DIMENSION
+T073,"Bias fears his experiments; truth earns his favor, not comfort. Honest signal triumphs over pleasing noise.",Abhishek Anand,Iron Man,Your banner number tolls the chime—add its digits to turn back time.,TeamSumShift,CDKBU SXNECDBSOC PKSVCKPO,STARK INDUSTRIES FAILSAFE
+T074,"My encryption laughs at casual guesses.
+Every cipher I cast is a secret carved in digital stone.",B S Poorvaj,Loki,Your banner number tolls the chime—add its digits to turn back time.,TeamSumShift,DELMTWTKP ESP ETXP WZZA,STABILIZE THE TIME LOOP
+T075,"Between clicks and code, I draft invisible contracts.
+Every tap becomes a promise that the backend must keep.",Shyam Modi,Wolverine,The river’s secret runs beneath the even ripples.,EvenLetterShift,SYAWK ISDZSYRNEX FFIQSFFJ,STARK INDUSTRIES FAILSAFE
+T076,"When the network forgets its manners, I teach the app to improvise.
+Grace blooms where latency once ruled.",Dharun SA,Deadpool,How long is the leader’s name? That measure moves the world.,LetterCountShift,CVTWKS MGM WN IOIUWBBW,UNLOCK EYE OF AGAMOTTO
+T077,"APIs are peace treaties in the digital world.
+I sign them so no system must ever declare war.",Zulqarnain Ahmed,Ant-Man,"Steel, not song, from the Avenger’s name powers the lever.",ConsonantNudge,VIZIVWI XLI WRET,REVERSE THE SNAP
+T078,"My pipelines hum hymns in YAML, transforming chaos into patterns of order.
+Where others see config files, I see choreography.",Aadi Patel,Black Panther,Tread only on the odd stones — the Avenger’s strength will guide your steps.,OddLetterShift,EYZCTRANUZQ ZAZOEUUT,SYNCHRONIZE NANOSUIT
+T079,"Leadership shines, fueling missions with cosmic flame.",Vanya Awasthi,Captain Marvel,Count the singing voices in the leader’s name; they set the tune.,VowelNudge,FAJSLJWX NSNYNFYNAJ,AVENGERS INITIATIVE
+T080,"Every feature is a tactic, every blueprint a calculated strike.",Aman Raj,Nick Fury,Count the singing voices in the leader’s name; they set the tune.,VowelNudge,VBQFKURQLCH QDQRVXLW,SYNCHRONIZE NANOSUIT
+T081,"Loss curves whisper secrets; I listen for bias and redemption.
+To unlearn is to progress beyond accuracy.",Shreyaan Loke,Spider-Man,"Two heroes, one push—add their strengths to move the mountain.",LeadLen+AvengerLen,BPVMY OCZ HDIY NOJIZ,GUARD THE MIND STONE
+T082,"Validation is my compass; I stop models from worshipping their own data.
+We build for humans, not perfection.",Krishna Gupta,Doctor Strange,"Steel, not song, from the Avenger’s name powers the lever.",ConsonantNudge,YAXSNLC YNPJBDB,PROJECT PEGASUS
+T083,"I distill vast models into nimble minds that fit in your palm.
+Every compression is intelligence refined.",Abhishek Anand,Iron Man,"Steel, not song, from the Avenger’s name powers the lever.",ConsonantNudge,TVSNIGX TIKEWYW,PROJECT PEGASUS
+T084,"Each open port is a question; I ensure only the right key answers.
+Where others see numbers, I see guarded gates.",B S Poorvaj,Loki,Twins pull in opposite winds; the cut between them marks the trick.,SplitHalves,TIJFME QSPSNBNK NLDFZ,SHIELD PROTOCOL OMEGA
+T085,"In the race between threads, I am the referee.
+I tame the machines of state before they dream themselves apart.",Shyam Modi,Wolverine,How long is the leader’s name? That measure moves the world.,LetterCountShift,BHWLQAXWRIN WJWXBDRC,SYNCHRONIZE NANOSUIT
+T086,"Speed is my art, stability my frame.
+I build waves that carry every load without breaking a pixel.",Dharun SA,Deadpool,Twins pull in opposite winds; the cut between them marks the trick.,SplitHalves,YETINXUTOFY HUHIMOCN,SYNCHRONIZE NANOSUIT
+T087,"Pods grow under my watch, climbing walls of latency like ivy.
+They bloom, fail, and rise again in perfect rhythm.",Zulqarnain Ahmed,Ant-Man,The river’s secret runs beneath the even ripples.,EvenLetterShift,GEABD TRE MSNN SDOXE,GUARD THE MIND STONE
+T088,"Pods awaken like stars at night, balancing chaos with perfect rhythm.
+I am the conductor of invisible orchestras.",Aadi Patel,Black Panther,"Count as you walk: zero, one, two… each footfall presses harder",AlternateStep,SUCEMQOGM CRP FVAT BFGI,STABILIZE THE TIME LOOP
+T089,"Sparks of inspiration ignite, uniting the club under one banner.",Vanya Awasthi,Captain Marvel,"Count as you walk: zero, one, two… each footfall presses harder",AlternateStep,QVCQXZS YMJVX QAHGO,QUANTUM REALM ENTRY
+T090,"He moves unseen, yet his architecture controls the board.",Aman Raj,Nick Fury,"Wind the clock forward, then read the mirror’s song.",ReverseWhole,HACWN VUJNA VDCWJDZ,QUANTUM REALM ENTRY
+T091,"From yesterday’s numbers he trains tomorrow’s truth, models whispering futures only he can hear.",Shreyaan Loke,Spider-Man,"Steel, not song, from the Avenger’s name powers the lever.",ConsonantNudge,IUTZGOT INGUY SGMOI,CONTAIN CHAOS MAGIC
+T092,"From yesterday’s numbers he trains tomorrow’s truth, models whispering futures only he can hear.",Krishna Gupta,Doctor Strange,"A dance of push and pull: odd steps forward, even steps back.",OddEvenShift,ERJEVGR ERNYVGL,REWRITE REALITY
+T093,"When algorithms clash, his logic decides their fate—reason, not noise, crowns the victor.",Abhishek Anand,Iron Man,"Two heroes, one push—add their strengths to move the mountain.",LeadLen+AvengerLen,UPYHAYLM CHCNCUNCPY,AVENGERS INITIATIVE
+T094,"Doors aren’t safe until I’ve tested their hinges.
+Patches are my dawn rituals before the world awakens.",B S Poorvaj,Loki,"Wind the clock forward, then read the mirror’s song.",ReverseWhole,LGVYNRE RGVEJRE,REWRITE REALITY
+T095,"Memory leaks fear my presence; I weave nets from logic and care.
+Every byte finds a home under my watch.",Shyam Modi,Wolverine,"Wind the clock forward, then read the mirror’s song.",ReverseWhole,OUSAC ZCQCHCFD RZSWVG,SHIELD PROTOCOL OMEGA
+T096,Prototypes are my tempests; I forge storms into smooth releases. What begins as chaos ends as creation.,Dharun SA,Deadpool,"Steel, not song, from the Avenger’s name powers the lever.",ConsonantNudge,YRPSGO ICI SJ EKEQSXXS,UNLOCK EYE OF AGAMOTTO
+T097,"He shrinks problems until they slip unnoticed, efficiency hidden in tiny frames.",Zulqarnain Ahmed,Ant-Man,"Gaze into the ancient mirror, then step one pace ahead.",MirrorSwap,AFWNUWJI SNSHSAHSFW,AVENGERS INITIATIVE
+T098,"I bend configuration to my will, commanding order in digital storms.
+Variables obey, systems align, entropy bows.",Aadi Patel,Black Panther,"Steel, not song, from the Avenger’s name powers the lever.",ConsonantNudge,JENWPNAB RWRCRJCREN,AVENGERS INITIATIVE
+T099,"A cosmic resolve burns bright, guiding the community’s orbit higher with every step.",Vanya Awasthi,Captain Marvel,"A dance of push and pull: odd steps forward, even steps back.",OddEvenShift,HAYBPX RLR BS NTNZBGGB,UNLOCK EYE OF AGAMOTTO
+T100,"He guides the technology silently, aligning pieces like a grandmaster.",Aman Raj,Nick Fury,The river’s secret runs beneath the even ripples.,EvenLetterShift,RIVIRWE TLE SRAT,REVERSE THE SNAP
